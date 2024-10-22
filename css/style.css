@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between ;
+}
+
+heaader{
+    display: flex;
+    align-items: center;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
