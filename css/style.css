@@ -1,4 +1,4 @@
-/* Estils generals */
+
 body {
     font-family: 'Circular', sans-serif;
     background-color: #000;
@@ -6,4 +6,44 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #020202;
+    align-items: center;
+    ;
+}
+
+#encab{
+    
+    text-align: center;
+    background: linear-gradient(360deg, #000, #b170ae);
+}
+
+.bigButton{
+    padding: 15px 30px; /* Augmenta l'espai intern del botó */
+    font-size: 18px;    /* Augmenta la mida de la lletra */
+    width: 200px;       /* Amplada del botó */
+    height: 60px;       /* Alçada del botó */
+    background-color: #b170ae; /* Color de fons verd */
+    color: white;       /* Color del text */
+    border: none;       /* Sense vora */
+    border-radius: 30px; /* Corbes als extrems del botó */
+    cursor: pointer; 
+}
+.bigButton2{
+    padding: 15px 30px; /* Augmenta l'espai intern del botó */
+    font-size: 18px;    /* Augmenta la mida de la lletra */
+    width: 200px;       /* Amplada del botó */
+    height: 60px;       /* Alçada del botó */
+    background-color: #0a0a0a; /* Color de fons verd */
+    color: white;       /* Color del text */
+    border-color: white ;       /* Sense vora */
+    border-radius: 30px; /* Corbes als extrems del botó */
+    cursor: pointer; 
+}
+#textPetit{
+    font-size: 10px ;
+
 }
