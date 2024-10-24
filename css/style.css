@@ -12,38 +12,128 @@ header{
     justify-content: space-between;
     background-color: #020202;
     align-items: center;
-    ;
+    font-size: 10px;
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 
 #encab{
     
     text-align: center;
     background: linear-gradient(360deg, #000, #b170ae);
+    font-size: 30px;
+    padding-top: 100px;
 }
-
+#encab h4{
+    font-size: 20px;
+}
 .bigButton{
-    padding: 15px 30px; /* Augmenta l'espai intern del botó */
-    font-size: 18px;    /* Augmenta la mida de la lletra */
-    width: 200px;       /* Amplada del botó */
-    height: 60px;       /* Alçada del botó */
-    background-color: #b170ae; /* Color de fons verd */
-    color: white;       /* Color del text */
-    border: none;       /* Sense vora */
-    border-radius: 30px; /* Corbes als extrems del botó */
+    padding: 15px 30px; 
+    font-size: 18px;    
+    width: 200px;       /
+    height: 60px;      
+    background-color: #b170ae; 
+    color: white;      
+    border: none;       
+    border-radius: 30px; 
     cursor: pointer; 
 }
 .bigButton2{
-    padding: 15px 30px; /* Augmenta l'espai intern del botó */
-    font-size: 18px;    /* Augmenta la mida de la lletra */
-    width: 200px;       /* Amplada del botó */
-    height: 60px;       /* Alçada del botó */
-    background-color: #0a0a0a; /* Color de fons verd */
-    color: white;       /* Color del text */
-    border-color: white ;       /* Sense vora */
-    border-radius: 30px; /* Corbes als extrems del botó */
+    padding: 15px 30px; 
+    font-size: 18px;    
+    width: 200px;       
+    height: 60px;       
+    background-color: #0a0a0a; 
+    color: white;       
+    border-color: white ;       
+    border-radius: 30px; 
     cursor: pointer; 
 }
 #textPetit{
     font-size: 10px ;
 
 }
+#diferencia{
+    flex: content;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 30px;
+    
+
+}
+#diferencia h1 {
+    margin-bottom: 1px; 
+  }
+  
+  #diferencia h5 {
+    margin-top: 0; 
+  }
+
+  #taula {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 150px;
+    
+    
+  }
+  
+  #taula h2 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+  }
+  
+  #taula p {
+    text-align: center;
+    color: #999;
+  }
+  
+  #taula table  {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+  
+  }
+  
+  #taula th, #taula td {
+    border: 1px solid #444;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+  }
+  
+  #taula th {
+    background-color: #111;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #taula td {
+    background-color: #070707;
+  }
+  
+  #taula td:first-child {
+    text-align: left;
+  }
+  
+  #taula td:nth-child(2), #taula td:nth-child(3) {
+    font-size: 16px; 
+  }
+  
+  body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  #plan{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+    
+  }
