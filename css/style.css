@@ -137,3 +137,43 @@ header{
     font-size: 20px;
     
   }
+
+  .todos {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    max-width: 800px; /* Amplada del contenidor */
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start; /* Alínea els elements a la part superior */
+    gap: 20px; /* Espai entre les dues columnes */
+}
+
+.todos p {
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+    max-width: 250px; /* Amplada de la columna del text */
+    font-size: 25px;
+}
+
+.todos ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.todos li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.todos li::before {
+  content: "\2713";
+  color: #ffffff; /* Canvia el color del tick a blanc */
+  margin-right: 10px;
+  font-size: 1.2em;
+}
